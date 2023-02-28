@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    color: azure;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: azure;
+    display: inline;
+}
+
+a {
+
+    color: red;
+    padding: 0px 180px;
+
+}
+
+nav {
+    padding: 50px;
+
+}
+
+a:hover {
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+section.top {
+    display: block;
+    float: right;
+}
+
+section.middle {
+
+    float: right;
+}
+
+section.bottom {
+
+    float: right;
+}
+
+div.container {
+    display: grid;
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(300px, auto));
+}
+
+.container section {
+    background-color: red;
+    padding: 30px;
+}
+
+.container aside:nth-child(even) {
+    background-color: white;
+    padding: 30px;
+}
+ label{
+    display: block;
+    text-align: left;
+    color: azure;
+    padding: 20px;
+ }
+ input[type="text"]{
+    display: block;
+    width: auto;
+    padding: 10px;
+ }
+
+ 
